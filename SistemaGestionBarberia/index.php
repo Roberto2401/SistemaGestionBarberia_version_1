@@ -36,8 +36,8 @@
         <h2>Sección de Reseñas</h2>
     </a>
 
-    <a href="reinicio.php" class="section-link">
-        <h2>Sección de Reinicio de Clase</h2>
+    <a href="recuperarPassword.php" class="section-link">
+        <h2>Sección de Reinicio de Clave</h2>
     </a>
 
     <a href="citas.php" class="section-link">
@@ -46,6 +46,9 @@
 
     <a href="promociones.php" class="section-link">
         <h2>Sección de Promociones</h2>
+    </a>
+    <a href="productos.php" class="section-link">
+        <h2>Sección de Productos</h2>
     </a>
 </div>
 
@@ -58,13 +61,7 @@
 </html>
 
 
-<?php
-    require_once "include/templates/cuerpoIndex.php";
-?>
 
-<?php
-    include "include/templates/footer.php";
-?>
 
 
 

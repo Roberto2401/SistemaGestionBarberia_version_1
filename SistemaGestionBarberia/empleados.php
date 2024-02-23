@@ -3,13 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div class="links">
-        <a href="index.php">Ir a la página inicial</a>
-        <a href="reseñas.php">Ir a las reseñas</a>
-        <a href="recuperarPassword.php">Reinicio de clave</a>
-        <a href="citas.php">Citas</a>
-        <a href="promociones.php">Promociones</a>
-        </div>
     <title>Estilistas</title>
 <!-- css para seccionar a los estilistas y hacerlo mas estetico-->    <style>
     .estilista {
@@ -32,6 +25,10 @@
             border-radius: 5px;
             text-align: center;
         }
+        h1 {
+            text-align: center;
+        }
+
         .links a {
     display: inline-block;
     margin: 10px;
@@ -49,8 +46,15 @@
     </style>
 </head>
 <body>
+<div class="links">
+        <a href="index.php">Ir a la página inicial</a>
+        <a href="reseñas.php">Ir a las reseñas</a>
+        <a href="recuperarPassword.php">Reinicio de clave</a>
+        <a href="citas.php">Citas</a>
+        <a href="promociones.php">Promociones</a>
+        </div>
     <!-- estilistas con sus atributos-->
-    <h1>Estilistas</h1>
+    <h1>Estilistas y Horario de la Barbería</h1>
     <div class="estilista">
         <img src=img/estilista1.png alt="Foto de Estilista 1">
         <div>
@@ -107,7 +111,7 @@
         </div>
   
     </div>
-    
+    <!--seccion de horarios -->
     <div id="horarios">
         <h2>Nuestros Horarios</h2>
         <p>Lunes a Viernes: 9:00 - 20:00</p>
